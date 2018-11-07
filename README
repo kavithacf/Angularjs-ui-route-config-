@@ -1,0 +1,4 @@
+//Angularjs- ui routeconfig
+ui.route without grunt and gulp file
+sudo npm install serve -g
+run serve
