@@ -11,17 +11,8 @@ angular.module('myApp', ['ui.router'])
         url: '/home',
         templateUrl: 'home.html'
     });
-    
-    $stateProvider.state('projects', {
-        url: '/projects',
-        templateUrl: 'projects.html'
-    });
-    
-    $stateProvider.state('services', {
-        url: '/services',
-        templateUrl: 'services.html'
-    });
-    
+
+   
     $stateProvider.state('downloads', {
         url: '/downloads',
         templateUrl: 'downloads.html'
@@ -32,9 +23,5 @@ angular.module('myApp', ['ui.router'])
         templateUrl: 'about.html'
     });
     
-    $stateProvider.state('contact', {
-        url: '/contact',
-        templateUrl: 'contact.html'
-    });
- 
+   
 }]);
